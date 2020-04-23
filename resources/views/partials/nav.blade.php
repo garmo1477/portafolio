@@ -32,7 +32,9 @@
 			<!--Solo se ejecuta si no hemos iniciado seccion. o sea solo saldra el enlace de Login si no estamos logueados. Al contrario de auth-->
 					<li class="nav-item">
 						<a class="nav-link {{ setActive('login') }}" href="{{ route('login') }}">{{ __('Login') }}</a>
+
 					</li>
+					<li class="nav-item"><a class="nav-link {{ setActive('register') }}" href="{{ route('register') }}">{{ __('Register') }}</a></li>
 				@else
 					<li class="nav-item">
 						<a class="nav-link" href="#"  onclick="event.preventDefault();document.getElementById('logout-form').submit();">Cerrar Sesión</a>

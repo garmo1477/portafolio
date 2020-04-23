@@ -58,5 +58,5 @@ Route::post('contacto', 'MensajeController@store')->name('mensaje.store');
 //Route::resource('proyectos', 'PortfolioController');
 
 //deshabilitar registro
-Auth::routes(['register' => false]);
+Auth::routes(['register' => true]);
 

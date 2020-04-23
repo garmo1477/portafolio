@@ -2,6 +2,9 @@
 @section('title', 'Portfolio')
 @section('contenido')
 <div class="container">
+	<div>
+		<img class="img-fluid mb-4" src="/../img/projects.svg" alt="proyectos">
+	</div>
 	<!--d-flex es lo mismo que display: flex. mb-0 es margin: 0-->
 	<div class="d-flex justify-content-between align-items-center mb-3">
 		<h1 class="display-4 mb-0">{{ __('Projects') }}</h1>
@@ -10,7 +13,7 @@
 		@endauth
 	</div>
 	<hr>
-	<p class="lead text-secondary">Proyectos realizados	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas minus nihil quo, ex veniam et tempore autem vitae officiis ipsam qui ullam. </p>
+	<p class="lead text-secondary">Aquí se pueden ver todos los proyectos que he ido desarrollando tanto en cursos como los que hice por mi cuenta.</p>
 	<ul class="list-group">
 		<!-- el isset mirará si la variable existe y si no utilizará el else, si existe hace el foreach. También se puede utilizarf en vez de foreach un forelse y dentro de él un @ empty que funciona como un else y luego cerrar endforelse-->
 		@isset($projects)

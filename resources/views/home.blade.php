@@ -8,7 +8,7 @@
 		</div>
 		<div class="col-12 col-lg-6">
 			<h1 class="display-4 text-primary">Desarrollo Web</h1>
-			<p class="lead text-secondary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut dolor recusandae, maiores distinctio id cum! Enim sed suscipit ducimus eaque sunt eius officiis omnis? Earum facilis sit aut, ipsum soluta!</p>
+			<p class="lead text-secondary">¡Muy bienvenidos/as! He desarrollado esta pequeña app con laravel, donde os presentaré algunos de mis proyectos de programación realizados durante varios cursos y/o por mi cuenta. Mi objetivo con esto, es en un futuro encontrar trabajo como programadora Backend o Frontend. Si te interesa puedes contactame más abajo y mirar mi portafolio para ver mis trabajos.</p>
 			<a class="btn btn-lg btn-block btn-primary" href="{{ route('contacto') }}">Contáctame</a>
 			<a class="btn btn-lg btn-block btn-outline-primary" href="{{ route('projects.index') }}">Portafolio</a>
 

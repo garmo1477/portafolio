@@ -13,7 +13,7 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
    .sass('resources/sass/app.scss', 'public/css');
-mix.browserSync('http://prueba.test');
+mix.browserSync('http://portafolio.test');
 
 //si estamos en producción podemos hacer que los archivos se actulicen sin que haya q refrescar la cache del navegador
 

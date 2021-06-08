@@ -8,9 +8,9 @@
 		</div>
 		<div class="col-12 col-lg-6">
 			<h1 class="display-4 text-primary">Desarrollo Web</h1>
-			<p class="lead text-secondary">¡Muy bienvenidos/as! He desarrollado esta pequeña app con laravel, donde os presentaré algunos de mis proyectos de programación realizados durante varios cursos y/o por mi cuenta. Mi objetivo con esto, es en un futuro encontrar trabajo como programadora Backend o Frontend. Si te interesa puedes contactame más abajo y mirar mi portafolio para ver mis trabajos.</p>
+			<p class="lead text-secondary">¡Muy bienvenidos/as! Me llamo Paloma. He desarrollado esta pequeña app con laravel, el objetivo es demostrar un poco mis conocimientos en programación PHP con Laravel. En esta web se puede crear cuenta de usuario para luego poder crear, editar, listar o eliminar proyectos. También cuenta con un formulario para contactar.</p>
 			<a class="btn btn-lg btn-block btn-primary" href="{{ route('contacto') }}">Contáctame</a>
-			<a class="btn btn-lg btn-block btn-outline-primary" href="{{ route('projects.index') }}">Portafolio</a>
+			<a class="btn btn-lg btn-block btn-outline-primary" href="{{ route('projects.index') }}">Portafolio (CRUD Laravel)</a>
 
 		</div>
 

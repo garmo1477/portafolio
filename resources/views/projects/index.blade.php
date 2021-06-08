@@ -22,6 +22,7 @@
 			<li class="list-group-item border-0 mb-3 shadow-sm">
 				<a class="text-secondary d-flex justify-content-between align-items-center" href="{{ route('projects.show', $project) }}">
 					<span class="font-weight-bold">{{ $project->title }}</span>
+					<span class="font-weight-bold">{{ $project->url }}</span>
 					<span class="text-black-50">{{ $project->created_at->format('d/m/y') }}</span>
 				</a>
 			</li>

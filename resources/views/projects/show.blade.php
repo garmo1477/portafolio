@@ -7,7 +7,7 @@
 	<hr>
 
 	<p class="lead text-secondary"> {{ $project->description }} </p>
-	<a class="lead text-secondary" href="{{ $project->url }}"> {{ $project->url }} </a>
+	<p class="lead text-secondary"> {{ $project->url }} </p>
 	<p class="text-black-50"> {{ $project->created_at->diffForHumans() }} </p> <!--diffForHumans enseñará la fecha en, hace 3 horas, por ejemplo-->
 
 	<div class="d-flex justify-content-between align-items-center">

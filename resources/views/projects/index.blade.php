@@ -13,8 +13,7 @@
 		@endauth
 	</div>
 	<hr>
-	<p class="lead text-secondary">Aquí se pueden ver todos los proyectos que he ido desarrollando. Proyectos de programación Laravel y Angular</p>
-	<p>En esta sección se puede crear, editar, eliminar y ver proyectos. Es donde se puede ver un poco como trabajo con el CRUD de Laravel</p>
+	<p class="lead text-secondary">Aquí se pueden ver todos los proyectos que he ido desarrollando. Proyectos de programación Laravel y Angular. En esta sección se puede crear, editar, eliminar y ver proyectos. Es donde se puede ver un poco como trabajo con el CRUD de Laravel</p>
 	<ul class="list-group">
 		<!-- el isset mirará si la variable existe y si no utilizará el else, si existe hace el foreach. También se puede utilizarf en vez de foreach un forelse y dentro de él un @ empty que funciona como un else y luego cerrar endforelse-->
 		@isset($projects)
